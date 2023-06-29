@@ -1,0 +1,28 @@
+# You may need to install a few of the following dependencies in order to run the script as needed. Below are the commands to do so:
+
+# Install Visual Studio Code
+
+sudo apt update
+sudo apt install software-properties-common apt-transport-https wget
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt update
+sudo apt install code
+
+# Install Nmap 
+
+sudo  apt install nmap 
+
+# Install Python
+
+sudo apt instal python3
+
+# Install Pip
+
+sudo apt-get install python3-pip
+
+Install Python-Nmap Package
+
+sudo pip install python-nmap
+
+# If you run across something I've left out please don't hesitate to let me know!
