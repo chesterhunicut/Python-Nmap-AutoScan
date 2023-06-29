@@ -4,7 +4,7 @@ crontab -e
 
 # When prompted, be sure to choose nano as your editor to keep it simple. You will then set the schedule based on your needs in the appropriate format. I use https://crontab.guru/ to help get the correct format. 
 
-# I chose to run the cron job at 5PM every Wednesday evening. You then need to specificy that you want to run the job with sudo priveleges and provide the information to execute the script along 
+# I chose to run the cron job at 5PM every Wednesday evening. You then need to specificy that you want to run the job with sudo privileges and provide the information to execute the script along 
 # with the path where the script is saved. Here is how my cron job is set up:
 
 0 17 * * 3 /usr/bin/sudo /usr/bin/python3 /path/to/your/script.py
