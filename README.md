@@ -9,7 +9,7 @@ I've used this to save some time when scanning against entire server ranges and 
 
 There are some things to consider when creating the cron job, as it will have to be executed with sudo privileges without passing credentials. 
 
-The details for how I set this up can be found in the "cron-job" section of this repo. 
+The details for how I set this up can be found in the "Cron Job" section of this repo. Commands for installing dependencies can be found under the "Dependencies" tab. 
 
 As this is my first Python script, I welcome any and all feedback!
 
