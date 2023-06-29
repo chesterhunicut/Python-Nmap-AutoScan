@@ -7,6 +7,10 @@ The script is designed to scan against your specified targets with a comprehensi
 
 I've used this to save some time when scanning against entire server ranges and have utilized a cron job to set it on a weekly schedule. 
 
+There are some things to consider when creating the cron job, as it will have to be executed with sudo privileges without passing credentials. 
+
+The details for how I set this up can be found in the "cron-job" section of this repo. 
+
 As this is my first Python script, I welcome any and all feedback!
 
 Looking forward to hearing what everyone thinks of it and seeing how the script will continue to evolve.
@@ -14,5 +18,6 @@ Looking forward to hearing what everyone thinks of it and seeing how the script 
 Happy Scanning!
 
 Christian Morton (aka ChesterHunicut)
+LinkedIn - https://www.linkedin.com/in/christian-morton-7080aa1b2/
 
 
