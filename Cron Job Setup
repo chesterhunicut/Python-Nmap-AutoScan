@@ -19,6 +19,10 @@ administrator ALL=(ALL) NOPASSWD: ALL
 
 # Save and exit. This is just what I found worked best for my circumstances but do whatever makes the most sense for your environment and use case. 
 
+# You'll then need to restart the cron service to implement your changes.
+
+sudo service cron restart
+
 # At this point the cron job should be properly configured and you can get to testing!
 
 
