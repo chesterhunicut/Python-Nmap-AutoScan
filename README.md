@@ -1,7 +1,7 @@
 # Python-Nmap-AutoScan
 Python Script to automate Nmap scans against known IP ranges
 
-This was my first crack at using Python to automate some Nmap scans against my server ranges. 
+This was my first crack at using Python to automate some Nmap scans against multiple IP ranges. 
 
 The script is designed to scan against your specified targets with a comprehensive Nmap scan, save the results as a .txt file, and send them via email to the desired recipients.
 
