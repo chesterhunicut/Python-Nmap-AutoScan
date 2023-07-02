@@ -15,7 +15,7 @@ sudo  apt install nmap
 
 # Install Python
 
-sudo apt instal python3
+sudo apt install python3
 
 # Install Pip
 
